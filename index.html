@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <h1>To Do List</h1>
+
+        <div class="task-input">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>            
+            <input type="text" placeholder="add a new task">
+        </div>
+
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+
+        <ul class="task-box"></ul>
+
+    </div>
+
+    <footer>@Copyrights2022: khaled Ahmed</footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
